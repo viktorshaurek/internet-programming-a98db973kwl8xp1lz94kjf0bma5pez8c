@@ -63,9 +63,9 @@ The list of episodes should show the following information:
 
 All fields displayed should be sortable, i.e. clicking on the column header should sort the list by that column. The default sort order should be ascending, and clicking on the same column header again should reverse the sort order. The current sort order should be indicated by an arrow next to the column header. The arrow should point up for ascending order and down for descending order. If the column is not sorted, the arrow should not be displayed, or should be greyed out.
 
-Note: The Era column sorting should be in the order Classic, Modern, Recent.
-Note: The Doctor and Companion columns should be sorted by the actor name
-Note: The Cast column should be sorted by the number of cast members, and then by the first cast member name
+- Note: The Era column sorting should be in the order Classic, Modern, Recent.
+- Note: The Doctor and Companion columns should be sorted by the actor name
+- Note: The Cast column should be sorted by the number of cast members, and then by the first cast member name
 
 ### Filtering
 

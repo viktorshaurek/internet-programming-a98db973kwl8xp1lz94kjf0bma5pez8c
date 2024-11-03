@@ -46,15 +46,15 @@ const allEpisodes = episodes.reduce((acc, curr) => {
 
 // write the merged data to a file
 
-//fs.writeFileSync('../data/doctor-who-episodes.json', JSON.stringify(allEpisodes, null, 2));
+fs.writeFileSync('../data/doctor-who-episodes.json', JSON.stringify({episodes: allEpisodes}, null, 2));
 
 //extract unique values for doctors
 
-const doctors = allEpisodes.map((episode) => episode?.doctor.incarnation);
+// const doctors = allEpisodes.map((episode) => episode?.doctor.incarnation);
 
-const uniqueDoctors = Array.from(new Set(doctors));
+// const uniqueDoctors = Array.from(new Set(doctors));
 
-console.log(uniqueDoctors);
+// console.log(uniqueDoctors);
 
 
-console.log(allEpisodes.filter((episode) => !episode));
+// console.log(allEpisodes.filter((episode) => !episode));

@@ -71,6 +71,17 @@ const displayEpisodes = () => {
         });
 };
 
+
+const getEraIcon = (era) => {
+    const iconMap = {
+        "Classic": "images/classic.jpg",
+        "Modern": "images/modern.jpg",
+        "Recent": "images/recent.jpg"
+    };
+    console.log(`Getting icon for era: ${era} -> ${iconMap[era]}`); // Debug log
+    return `<img src="${iconMap[era]}" alt="${era} icon" class="era-icon">`;
+};
+
 document.querySelectorAll('.header-cell').forEach(header => {
     header.onclick = () => {
         const field = header.dataset.sort;
